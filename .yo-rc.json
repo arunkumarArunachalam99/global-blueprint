@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "additionalSubGenerators": "",
+    "baseName": "door-blueprint",
+    "cli": true,
+    "entities": [],
+    "generators": {
+      "server": {
+        "command": true,
+        "priorities": [
+          "initializing",
+          "prompting",
+          "configuring",
+          "composing",
+          "composingComponent",
+          "loading",
+          "preparing",
+          "configuringEachEntity",
+          "loadingEntities",
+          "preparingEachEntity",
+          "preparingEachEntityField",
+          "preparingEachEntityRelationship",
+          "postPreparingEachEntity",
+          "default",
+          "writing",
+          "writingEntities",
+          "postWriting",
+          "postWritingEntities",
+          "loadingTranslations",
+          "install",
+          "postInstall",
+          "end"
+        ],
+        "sbs": false,
+        "written": true
+      }
+    },
+    "jhipsterVersion": "8.5.0",
+    "localBlueprint": false,
+    "sampleWritten": true,
+    "subGenerators": ["server"]
+  }
+}
